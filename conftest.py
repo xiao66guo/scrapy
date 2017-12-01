@@ -8,6 +8,12 @@ def _py_files(folder):
     return glob.glob(folder + "/*.py") + glob.glob(folder + "/*/*.py")
 
 
+
+
+
+
+
+
 collect_ignore = [
     # deprecated or moved modules
     "scrapy/conf.py",
